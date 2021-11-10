@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.uas_ibnu_revan_ponda_candra">
 <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UAS_IBNU_REVAN_PONDA_CANDRA">
         <activity
-            android:name=".DetailMovieActivity"
+
+            android:name=".MenuUtama"
+            android:exported="true" />
+
+            <activity
+               android:name=".DetailMovieActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity2"
@@ -24,7 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>
