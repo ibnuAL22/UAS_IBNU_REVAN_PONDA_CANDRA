@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bacgroud1"
     tools:context=".HomeFragment">
 
 
@@ -13,5 +14,13 @@
         android:text="@string/populer_film"
         android:layout_gravity="center"
         android:onClick="pindah" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+
+        android:text="@string/genre" />
 
 </FrameLayout>

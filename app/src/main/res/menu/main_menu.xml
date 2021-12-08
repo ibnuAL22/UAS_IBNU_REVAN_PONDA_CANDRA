@@ -12,7 +12,7 @@
         android:icon="@drawable/bioskop_selector"/>
     <item
         android:id="@+id/menu_maps"
-        android:title="@string/maps"
+        android:title="@string/anggota"
         android:icon="@drawable/maps_selector"/>
 
 

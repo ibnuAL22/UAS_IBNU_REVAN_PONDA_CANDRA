@@ -7,4 +7,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="populer_film">Populer Film</string>
+    <string name="genre">genre</string>
+    <string name="ibnu_alana_muhaimin_candra_kurniawan_ponda_sumantri_m_revanza_anandika">-Ibnu alana muhaimin -candra Kurniawan - ponda sumantri -M revanza anandika</string>
+    <string name="anggota">Anggota</string>
 </resources>
